@@ -5,6 +5,7 @@ MailHelper Class
 
 1. `mailconfig.php` 是邮件的配置文件
 2. 该辅助类支出邮件模版设置
+
     ```php
         // 邮件模版存放位置
         define('EMAIL_TEMPLATE_PATH', dirname(__FILE__) . '/../views/email/');
