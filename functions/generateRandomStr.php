@@ -53,7 +53,7 @@ function generateRandomStr($length = 8, $type="mix", $extend_source = null, $cus
         $source .= $extend_source;
     }
 
-    $max = count($source) - 1;
+    $max = strlen($source) - 1;
     $result = '';
     for($i = 0; $i < $length; $i++) {
         $pos = mt_rand(0, $max);
